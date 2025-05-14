@@ -2,7 +2,7 @@ import React from 'react'
 
 function pricing() {
   return (
-    <div>pricing</div>
+    <div>pricing Plan</div>
   )
 }
 

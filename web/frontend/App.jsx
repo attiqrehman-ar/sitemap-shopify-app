@@ -19,7 +19,7 @@ export default function App() {
         <QueryProvider>
           <NavMenu>
             <a href="/" rel="home" />
-            <a href="/pagename">Site speed</a>
+            <a href="/SitemapExtractor">Site Map</a>
             <a href="/pricing">Pricing</a>
           </NavMenu>
           <Routes pages={pages} />

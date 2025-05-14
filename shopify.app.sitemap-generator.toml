@@ -3,7 +3,7 @@
 client_id = "66d05de3eb0f7d9c5da000b653621d9b"
 name = "sitemap-generator"
 handle = "sitemap-generator-5"
-application_url = "https://genre-russia-robinson-louisiana.trycloudflare.com"
+application_url = "https://varieties-tabs-hazardous-districts.trycloudflare.com"
 embedded = true
 
 [build]
@@ -19,9 +19,9 @@ scopes = "write_products"
 
 [auth]
 redirect_urls = [
-  "https://genre-russia-robinson-louisiana.trycloudflare.com/auth/callback",
-  "https://genre-russia-robinson-louisiana.trycloudflare.com/auth/shopify/callback",
-  "https://genre-russia-robinson-louisiana.trycloudflare.com/api/auth/callback"
+  "https://varieties-tabs-hazardous-districts.trycloudflare.com/auth/callback",
+  "https://varieties-tabs-hazardous-districts.trycloudflare.com/auth/shopify/callback",
+  "https://varieties-tabs-hazardous-districts.trycloudflare.com/api/auth/callback"
 ]
 
 [pos]

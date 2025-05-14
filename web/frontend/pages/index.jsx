@@ -18,7 +18,7 @@ import { ProductsCard } from "../components";
 export default function HomePage() {
   const { t } = useTranslation();
   return (
-    <Page narrowWidth>
+    <Page fullWidth>
       <TitleBar title={t("HomePage.title")} />
       <Layout>
         <Layout.Section>
@@ -35,7 +35,7 @@ export default function HomePage() {
                     {t("HomePage.heading")}
                   </Text>
                   <p>
-                    <Trans
+                    {/* <Trans
                       i18nKey="HomePage.yourAppIsReadyToExplore"
                       components={{
                         PolarisLink: (
@@ -54,7 +54,7 @@ export default function HomePage() {
                           />
                         ),
                       }}
-                    />
+                    /> */}
                   </p>
                   <p>{t("HomePage.startPopulatingYourApp")}</p>
                   <p>
@@ -63,7 +63,7 @@ export default function HomePage() {
                       components={{
                         ShopifyTutorialLink: (
                           <Link
-                            url="https://shopify.dev/apps/getting-started/add-functionality"
+                            url="https://developers.google.com/search/docs/crawling-indexing/sitemaps/overview"
                             external
                           />
                         ),
@@ -84,9 +84,18 @@ export default function HomePage() {
             </Stack>
           </Card>
         </Layout.Section>
-        <Layout.Section>
-          <ProductsCard />
-        </Layout.Section>
+        {<Layout.Section>
+          <Card sectioned>
+          <div className="html-sitemap">
+            <div> 
+              <h2>Generate Html Sitemap</h2>
+              <p className="html-p">If you wanna make html sitemap , please click on the button given below</p>
+              <button className="html-btn">Click here</button>
+
+            </div>
+          </div>
+          </Card>
+        </Layout.Section> }
       </Layout>
     </Page>
   );
